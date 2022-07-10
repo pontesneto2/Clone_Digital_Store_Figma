@@ -1,54 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 .container-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ffffff;
+    margin: 30px 80px 50px 80px;
 }
 
-.header{
-
+.logo{
+    width: 15%;
 }
 
-#logo-header{
-    width: 250px;
-}
-
-.header-input{
+#logo-digital{
     width: 100%;
+    cursor: pointer;
 }
 
-#input-header{
+.input-search{
+    width: 40%;
+}
+
+#input-bar{
+    width: 100%;
     background-color: #e8e8e8;
     color: #474747;
     border: none;
     border-radius: 8px;
-    height: 40px;
+    height: 50px;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+#lupa{
+    width: 40%;
+}
+
+.container-input{
+    display: flex;
+    width: 50%;
+}
+
+.input-search{
+    position: relative;
     width: 100%;
 }
 
-#button-header{
-    background-color: #C21D70;
-    height: 40px;
-    width: 100px;
-    border: none;
-    color: #fff;
-    border-radius: 8px;
+.lupa-input{
+    position: absolute;
 }
 
-#car-header{
-    width: 30px;
+#cadastre{
+    color: #474747;
+    border-bottom: 1px solid #474747;
+    font-family: 'Inter', sans-serif;
+    font-size: 17.28px;
+}
+
+#btn{
+    background: #C92071;
+    border-radius: 8.64px;
+    border: none;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    height: 43px;
+    width: 123px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+}
+
+#car-check{
+    width: 40px;
+}
+
+.car{
+    width: 10%;
+    text-align: end;
 }
 
 .main-nav, ul{
     list-style: none;
     display: flex;
     padding-left: 0;
+    margin: 0px 0px 15px 40px;
 }
 
 .main-nav, ul, li{
@@ -57,9 +98,79 @@
 
 .main-nav, ul, li, a{
     text-decoration: none;
+    color: #474747;
+    font-family: 'Inter', sans-serif;
 }
 
 .main-nav ul li .active{
     color: #C21D70;
     border-bottom: 1px solid;
+    font-weight: 700;
+}
+
+.container-back{
+    background-color: #F5F5F5;
+}
+
+.container-back{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    /* justify-content: center; */
+}
+
+.container-left{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    justify-content: flex-start;
+    margin: 0px 0px 0px 80px;
+}
+
+#h2-back{
+    color: #C92071;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 71px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#h3-back{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+#btn-back{
+    background: #C92071;
+    border-radius: 8.64px;
+    border: none;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    height: 51px;
+    width: 237px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.poa-back{
+    margin-bottom: 250px;
+}
+
+#poa{
+    width: 151px;
+    height: 151px;
+    opacity: 0.8;
 }
